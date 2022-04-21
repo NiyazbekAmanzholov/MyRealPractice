@@ -24,6 +24,7 @@ public class Main {
 //        return result == null ? "" : result;
 //    }
 //niyaz commit
+//niyaz commit2
     public static String getFio(User user) {
         StringBuilder fio = new StringBuilder();
 
