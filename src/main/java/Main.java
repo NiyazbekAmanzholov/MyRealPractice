@@ -33,6 +33,10 @@ public class Main {
         }
         if (user.getFirstName() != null) {
             fio.append(" ").append(user.getFirstName());
+        }         if (user.getFirstName() != null) {
+            fio.append(" ").append(user.getFirstName());
+        }         if (user.getFirstName() != null) {
+            fio.append(" ").append(user.getFirstName());
         }
         if (user.getMidName() != null) {
             fio.append(" ").append(user.getMidName());
