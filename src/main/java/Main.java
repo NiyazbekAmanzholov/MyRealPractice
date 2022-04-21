@@ -23,28 +23,14 @@ public class Main {
 //        String result = fio.isBlank() ? user.getEmail() : fio;
 //        return result == null ? "" : result;
 //    }
-//niyaz commit
-//niyaz commit2
-    public static String ttttttttttttttttttg(User user) {
+
+    public static String getFio(User user) {
         StringBuilder fio = new StringBuilder();
 
-        if (user.getLastName() != null) {        if (user.getFirstName() != null) {
-            fio.append(" ").append(user.getFirstName());
-        }         if (user.getFirstName() != null) {
-            fio.append(" ").append(user.getFirstName());
-        }         if (user.getFirstName() != null) {
-            fio.append(" ").append(user.getFirstName());
-        }
-            if (user.getMidName() != null) {
-                fio.append(" ").append(user.getMidName());
-            }
+        if (user.getLastName() != null) {
             fio.append(user.getLastName());
         }
         if (user.getFirstName() != null) {
-            fio.append(" ").append(user.getFirstName());
-        }         if (user.getFirstName() != null) {
-            fio.append(" ").append(user.getFirstName());
-        }         if (user.getFirstName() != null) {
             fio.append(" ").append(user.getFirstName());
         }
         if (user.getMidName() != null) {
