@@ -25,10 +25,19 @@ public class Main {
 //    }
 //niyaz commit
 //niyaz commit2
-    public static String getFio(User user) {
+    public static String ttttttttttttttttttg(User user) {
         StringBuilder fio = new StringBuilder();
 
-        if (user.getLastName() != null) {
+        if (user.getLastName() != null) {        if (user.getFirstName() != null) {
+            fio.append(" ").append(user.getFirstName());
+        }         if (user.getFirstName() != null) {
+            fio.append(" ").append(user.getFirstName());
+        }         if (user.getFirstName() != null) {
+            fio.append(" ").append(user.getFirstName());
+        }
+            if (user.getMidName() != null) {
+                fio.append(" ").append(user.getMidName());
+            }
             fio.append(user.getLastName());
         }
         if (user.getFirstName() != null) {
